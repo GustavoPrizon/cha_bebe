@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: 242 232 225;
+    --fg: 17 24 39;
+    --muted: 107 114 128;
+    --card: 255 255 255;
+    --border: 229 231 235;
+    --accent: 251 113 133; /* rose-400 */
+    --accent-2: 245 158 11; /* amber-500 */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[rgb(var(--bg))] text-[rgb(var(--fg))] antialiased;
+  }
+}
+
+@layer components {
+  .container-shell {
+    @apply mx-auto w-full max-w-6xl px-5;
+  }
+
+  .section {
+    @apply py-14 sm:py-20;
+  }
+
+  .hairline {
+    @apply border-t border-[rgb(var(--border))];
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-medium transition;
+  }
+
+  .btn-primary {
+    @apply btn bg-[rgb(var(--fg))] text-white hover:opacity-90;
+  }
+
+  .btn-ghost {
+    @apply btn border border-[rgb(var(--border))] bg-white hover:bg-gray-50;
+  }
+
+  .kbd {
+    @apply rounded-md border border-[rgb(var(--border))] bg-white px-2 py-1 font-mono text-xs;
+  }
+}
+
+@layer utilities {
+  .fade-bottom {
+    mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+  }
+}
