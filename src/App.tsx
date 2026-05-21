@@ -76,7 +76,7 @@ function App() {
             />
             <img
               src="/banner.jpeg"
-              alt={`Convite do chá de bebê: ${EVENT.babyName}`}
+              alt={`Convite do chá da Helena: ${EVENT.babyName}`}
               className="relative mx-auto block w-full object-contain bg-[rgb(var(--bg))]"
               loading="eager"
               decoding="async"
@@ -115,7 +115,7 @@ function App() {
         <section id="como-funciona" className="section">
           <div className="container-shell">
             <h2 className="text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl">
-              Missões do bebê
+              Missões da Helena
             </h2>
             <p className="mt-3 max-w-2xl text-gray-600">
               Selecione um item na lista. O site mostra o valor e a chave Pix

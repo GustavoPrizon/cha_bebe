@@ -1,14 +1,14 @@
 export const EVENT = {
-  siteTitle: "Chá de Bebê",
+  siteTitle: "Chá da Bebê",
   siteSubtitle: "Lista de presentes",
-  babyName: "Helena ou Heitor",
+  babyName: "Helena",
   dateLabel: "06/06/2026 as 14:30",
-  locationLabel: "Casa do bebê",
-  heroTitle: "Um chá de bebê para celebrar um novo começo.",
+  locationLabel: "Casa da Helena",
+  heroTitle: "Um chá da bebê para celebrar um novo começo.",
   heroDescription:
     "Chá do(a) … 💛\n📅 Data: 06/06/2026\n📍 Endereço: Av. Leonardo da Vinci, 175 – Vila Guarani – CEP 04313-000\nCom muito carinho, preparamos uma lista de presentes para celebrar a chegada do nosso bebê.\nCaso deseje nos presentear, escolha um item da lista e envie via Pix. E, claro, se preferir, você também pode nos presentear da forma tradicional.\n✨ Contribuição livre — qualquer valor enviado com carinho será muito bem-vindo\nSe tiver qualquer dificuldade, fique à vontade para falar conosco!\nApós o pagamento, pedimos a gentileza de enviar o comprovante para o WhatsApp de um dos papais:\nJocimara Paula: 11 94280-0216\nAndré Bonadies: 11 98051-0592\nAgradecemos por fazer parte desse momento tão especial em nossas vidas. Sua presença, carinho e apoio já significam muito para nós 💛\nCom carinho, André e Jocimara",
   footerTitle: "Obrigado por fazer parte desse momento.",
-  footerSubtitle: "Com carinho, pais do bebê.",
+  footerSubtitle: "Com carinho, pais da Helena.",
 } as const;
 
 export const PIX = {
